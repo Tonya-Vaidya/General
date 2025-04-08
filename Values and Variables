@@ -1,0 +1,9 @@
+# a value is the actual data (like a number, text, or object), while a variable is a named storage location that holds a value, allowing you to manipulate and access it within your code 
+# Examples below. The  VALUE is 46 and the variable is 'x'
+
+x = 46
+
+product_type = Shirt
+
+
+
