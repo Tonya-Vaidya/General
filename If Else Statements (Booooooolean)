@@ -1,0 +1,14 @@
+if (age > 18)  checks if a person is an adult, returning true if the age is greater than 18, otherwise false. 
+Boolean Operators:
+
+    && (AND): (x > 5) && (x < 10) is true if x is both greater than 5 and less than 10. 
+
+|| (OR): (x == 5) || (x == 10) is true if x is either 5 or 10. 
+! (NOT): !(x > 5) is true if x is not greater than 5
+
+light_green = True
+
+if light_green:
+  print("Go, Go, Go!")
+else:
+  print("No, No, No!")
