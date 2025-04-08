@@ -1,0 +1,16 @@
+## sum(): Returns the sum of elements in an iterable (list, tuple).
+##min(): Returns the smallest item in an iterable.
+##max(): Returns the largest item in an iterable.
+##round(): Rounds a number to a specified number of decimal places.
+##type(): Returns the type of an object.
+##range(): Generates a sequence of numbers.
+##input(): Reads a line from input, converts it to a
+
+a = (1, 2, 3, 4, 5)
+x = sum(a)
+print(x)
+
+
+a = (2, 4, 6, 8, 10)
+x = sum(a)
+print(x)
