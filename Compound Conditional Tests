@@ -1,0 +1,42 @@
+and Operator: Both conditions must be true for the entire expression to be true.
+or Operator: At least one of the conditions must be true for the entire expression to be true.
+not Operator: Reverses the truth value of a condition. If a condition is true, not makes it false, and vice versa.
+
+## Example 
+
+age = 25
+city = "New York"
+
+if age >= 18 and city == "New York":
+    print("Eligible")
+else:
+    print("Not eligible")
+## Expected outcome is eligible
+
+
+## Example
+
+is_raining = False
+if not is_raining:
+    print("Carry an umbrella")
+else:
+    print("Enjoy the weather")
+## Expected outcome is "Enjoy the weather" because the bizarro backwards code of "if not"
+
+
+## Example
+
+temperature = 15
+weather = "sleet"
+if temperature < 5 or weather == "sleet":
+    print("Take precautions")
+else:
+    print("Enjoy the weather")
+## expected outcome of "Take precaution because one condition of sleet was met. 
+
+
+
+
+
+
+
