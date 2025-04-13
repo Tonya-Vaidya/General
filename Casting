@@ -1,0 +1,39 @@
+In Python, casting refers to the process of converting a variable from one data type to another. This is often done to ensure compatibility between different data types or to explicitly specify the desired type of a variable. Python provides built-in functions to perform type casting.
+Types of Casting in Python:
+
+    Implicit Casting:
+        Python automatically converts one data type to another where no data loss occurs.
+        Example:
+        Python
+
+    num_int = 10
+    num_float = 2.5
+    result = num_int + num_float  # Implicitly converts `num_int` to float
+    print(result)  # Output: 12.5
+    print(type(result))  # Output: <class 'float'>
+
+Explicit Casting:
+
+    The programmer manually converts one data type to another using built-in functions like int(), float(), str(), etc.
+    Example:
+    Python
+
+        # Integer to string
+        num = 123
+        num_str = str(num)
+        print(type(num_str))  # Output: <class 'str'>
+
+        # Float to integer
+        num_float = 3.8
+        num_int = int(num_float)
+        print(num_int)  # Output: 3 (Note: truncates decimal part)
+
+Common Casting Functions in Python:
+
+    int(): Converts a value to an integer.
+    float(): Converts a value to a float.
+    str(): Converts a value to a string.
+    list(): Converts a value (like a tuple or set) to a list.
+    tuple(): Converts a value (like a list) to a tuple.
+    set(): Converts a value (like a list) to a set.
+    dict(): Converts a sequence of key-value pairs into a dictionary.
