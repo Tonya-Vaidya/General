@@ -1,0 +1,41 @@
+Variables
+Variables are containers for storing data values.
+A variable is created the moment you first assign a value to it.
+
+Strings
+Strings in python are surrounded by either single quotation marks, or double quotation marks.
+'hello' is the same as "hello".
+
+Boolean Values
+You can evaluate any expression in Python, and get one of two answers, True or False.
+When you compare two values, the expression is evaluated and Python returns the Boolean answer:
+print(10 > 9)  #true
+print(10 == 9) #false
+print(10 < 9) #false
+
+Python Operators
+Operators are used to perform operations on variables and values.
+ we use the + operator to add together two values:
+print(10 + 5) 
+
+
+List
+Lists are used to store multiple items in a single variable.
+Lists are created using square brackets: mylist = ["apple", "banana", "cherry"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
